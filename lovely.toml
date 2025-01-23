@@ -1,0 +1,50 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 0
+
+## 3470,3471 (ptbr lua) = tentativa da info
+
+# Remove "Not Allowed" hardcode
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = '''play_area_status_text("Not Allowed!")--localize('k_not_allowed_ex'), true)'''
+position = "at"
+payload = '''play_area_status_text(localize('k_not_allowed_ex'))'''
+overwrite = true
+match_indent = true
+
+# Localization support for empty voucher slot text (taken from Vietnamese Balatro by HuyTheKiller)
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'DEFEAT', scale = 0.6, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_voucher_restock_1'), scale = 0.6, colour = G.C.WHITE}}'''
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'BOSS BLIND', scale = 0.4, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_voucher_restock_2'), scale = 0.4, colour = G.C.WHITE}}'''
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'TO RESTOCK', scale = 0.4, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = localize('k_voucher_restock_3'), scale = 0.4, colour = G.C.WHITE}}'''
+match_indent = true
+
+# Only allowing said text to appear when using English or Brazilian Portuguese (taken from Vietnamese Balatro by HuyTheKiller)
+[[patches]]
+[patches.pattern]
+target = "functions/button_callbacks.lua"
+pattern = '''elseif G.SETTINGS.language ~= 'en-us' then'''
+position = "at"
+payload = '''elseif (G.SETTINGS.language ~= 'en-us' and G.SETTINGS.language ~= 'pt_BR') then'''
+match_indent = true
