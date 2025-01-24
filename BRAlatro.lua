@@ -2,7 +2,7 @@
 
 --- MOD_NAME: BRAlatro
 --- MOD_ID: bralatro
---- MOD_AUTHOR: [PinkMaggit, HuyTheKiller]
+--- MOD_AUTHOR: [PinkMaggit]
 --- MOD_DESCRIPTION: Tradução do Balatro para o Português Brasileiro do jeito certo.
 --- BADGE_COLOR: f9c877
 --- BADGE_TEXT_COLOR: 449d95
