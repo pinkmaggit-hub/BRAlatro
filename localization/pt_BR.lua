@@ -450,6 +450,41 @@ return {
                     "{C:inactive}(ex.: {C:attention}10 8 6 5 3{C:inactive})",
                 },
             },
+			j_steel_joker={
+                name="Curinga de Aço",
+                text={
+                    "Dá {X:mult,C:white} X#1# {} Multi",
+                    "por cada {C:attention}Carta de Aço",
+                    "do seu {C:attention}baralho completo",
+                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)",
+                },
+            },
+			j_stone={
+                name="Curinga de Pedra",
+                text={
+                    "Dá {C:chips}+#1#{} Fichas por",
+                    "cada {C:attention}Carta de Pedra",
+                    "no seu {C:attention}baralho completo",
+                    "{C:inactive}(No momento, {C:chips}+#2#{C:inactive} Fichas)",
+                },
+            },
+			j_hit_the_road={
+                name="Cai Fora",
+                text={
+                    "Este Curinga ganha {X:mult,C:white} X#1# {} Multi",
+                    "por cada {C:attention}Valete{}",
+                    "descartado nesta rodada",
+                    "{C:inactive}(No momento, {X:mult,C:white} X#2# {C:inactive} Multi)",
+                }
+            },
+			j_bootstraps={
+                name="Bonificação",
+                text={
+                    "{C:mult}+#1#{} Multi por cada",
+                    "{C:money}$#2#{} que você tem",
+                    "{C:inactive}(No momento, {C:mult}+#3#{C:inactive} Multi)",
+                }
+            },
 		},
 		Voucher = {
 			v_seed_money={
