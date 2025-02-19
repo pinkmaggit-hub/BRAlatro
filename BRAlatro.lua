@@ -1,9 +1,8 @@
 --- STEAMODDED HEADER
-
 --- MOD_NAME: BRAlatro
 --- MOD_ID: bralatro
 --- MOD_AUTHOR: [PinkMaggit]
---- MOD_DESCRIPTION: Tradução do Balatro para o Português Brasileiro do jeito certo.
+--- MOD_DESCRIPTION: Tradução extraoficial do Balatro para o Português Brasileiro.
 --- BADGE_COLOR: f9c877
 --- BADGE_TEXT_COLOR: 449d95
 --- PREFIX: bralatro
