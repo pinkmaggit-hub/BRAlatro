@@ -6,7 +6,7 @@
 --- BADGE_COLOR: f9c877
 --- BADGE_TEXT_COLOR: 449d95
 --- PREFIX: bralatro
---- VERSION: 1.0
+--- VERSION: 1.1
 --- LOADER_VERSION_GEQ: 1.0.0
 
 -- defs --

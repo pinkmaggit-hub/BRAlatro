@@ -284,7 +284,7 @@ return {
                 },
             },
 			j_loyalty_card={
-                name="Cartão de Lealdade",
+                name="Cartão Fidelidade",
                 text={
                     "{X:red,C:white} X#1# {} Multi a cada",
                     "{C:attention}#2#{} mãos jogadas",
@@ -485,6 +485,41 @@ return {
                     "{C:inactive}(No momento, {C:mult}+#3#{C:inactive} Multi)",
                 }
             },
+			j_scary_face={
+                name="Medo Real",
+                text={
+                    "Cartas de {C:attention}realeza{} jogadas",
+                    "dão {C:chips}+#1#{} Fichas",
+                    "quando pontuadas",
+                },
+            },
+			j_gros_michel={
+                name="Banana-Prata",
+                text={
+                    "{C:mult}+#1#{} Multi",
+                    "{C:green}#2# de #3#{} chance desta",
+                    "carta ser destruída",
+                    "no fim da rodada",
+                },
+            },
+			j_cavendish={
+                name="Banana-Nanica",
+                text={
+                    "{X:mult,C:white} X#1# {} Multi",
+                    "{C:green}#2# de #3#{} chance desta",
+                    "carta ser destruída",
+                    "no fim da rodada",
+                },
+            },
+			j_superposition={
+                name="Superposição",
+                text={
+                    "Cria uma carta de {C:tarot}Tarô{} se",
+                    "a mão de pôquer tiver um",
+                    "{C:attention}Às{} e uma {C:attention}Sequência{}",
+                    "{C:inactive}(Deve ter espaço)",
+                },
+            },
 		},
 		Voucher = {
 			v_seed_money={
@@ -539,6 +574,8 @@ return {
 		dictionary = {
 			b_run_info_1="Informação",
             b_run_info_2="da Tentativa",
+			k_round="Pontuação",
+			k_lower_score="da Rodada",
 			k_x_base="X Base",
 			k_voucher_restock_1 = "DERROTE O",
 			k_voucher_restock_2 = "BLIND DE CHEFE",
