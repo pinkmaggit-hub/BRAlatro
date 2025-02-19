@@ -512,6 +512,17 @@ return {
                 },
 			},
 		},
+		Planet = {
+			c_neptune={
+                name="Netuno",
+                text={
+                    "{S:0.8}({S:0.8,V:1}nv.#1#{S:0.8}){} Subir de nível",
+                    "{C:attention}#2#",
+                    "{C:mult}+#3#{} Multi e",
+                    "{C:chips}+#4#{} fichas",
+                },
+            },
+		},
 		Spectral = {
 			c_grim={
                 name="Sombrio",
@@ -526,6 +537,8 @@ return {
 	},
 	misc = {
 		dictionary = {
+			b_run_info_1="Informação",
+            b_run_info_2="da Tentativa",
 			k_x_base="X Base",
 			k_voucher_restock_1 = "DERROTE O",
 			k_voucher_restock_2 = "BLIND DE CHEFE",
